@@ -1,0 +1,1019 @@
+{
+ "settings": {
+  "name": "Mom's Hands",
+  "sub": "Cafe & Pasta",
+  "tagline": "El emeği, gerçek lezzet, sevgiyle...",
+  "slogans": [
+   "Tatlılarımızda gerçek Belçika çikolatası kullanıyoruz.",
+   "Günlük üretim",
+   "Taze malzeme",
+   "Özenli hazırlık",
+   "Annemin elinden, sizin sofranıza."
+  ],
+  "address": "Caferağa Mah. Moda Cad. No:48, Kadıköy, İstanbul",
+  "mapsUrl": "https://maps.google.com/?q=Moda+Caddesi+Kad%C4%B1k%C3%B6y+%C4%B0stanbul",
+  "instagram": "momshands.cafe",
+  "phone": "+90 532 418 26 75",
+  "hours": "Her gün 08:00 ile 23:00 arası",
+  "wifi": "MomsHands_Misafir",
+  "notice": "Siparişlerinizi kasadan verebilirsiniz",
+  "showPhotos": false,
+  "coverImage": "",
+  "logoImage": ""
+ },
+ "categories": [
+  {
+   "id": "gunluk",
+   "name": "Günlük Lezzetler",
+   "subtitle": "Her sabah taze, ev usulü",
+   "icon": "cloche",
+   "items": [
+    {
+     "id": "bazlama_tost",
+     "name": "Bazlama Tost",
+     "desc": "Odun ateşi kıvamında bazlama, eriyen kaşar ve günün iç harcı. Çeşitleri başlayan fiyatlarla.",
+     "price": 250,
+     "unit": "",
+     "size": "",
+     "note": "",
+     "kcal": 520,
+     "kcalNote": "",
+     "priceFrom": true,
+     "allergens": [
+      "gluten",
+      "milk"
+     ],
+     "tags": [
+      "Sıcak"
+     ],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "gozleme",
+     "name": "Gözleme",
+     "desc": "İnce açılmış hamur, peynir ve yeşillik. Menü olarak 200 ₺: yanında çay ve salata.",
+     "price": 120,
+     "unit": "",
+     "size": "",
+     "note": "Menü 200 ₺",
+     "kcal": 430,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [
+      "gluten",
+      "milk"
+     ],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "manti",
+     "name": "Mantı",
+     "desc": "Tek tek kapanmış minik mantılar, sarımsaklı yoğurt ve tereyağlı pul biber.",
+     "price": 350,
+     "unit": "porsiyon",
+     "size": "",
+     "note": "",
+     "kcal": 620,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [
+      "gluten",
+      "egg",
+      "milk"
+     ],
+     "tags": [
+      "Annemin Tarifi"
+     ],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "zeytinyagli_yaprak_sarma",
+     "name": "Zeytinyağlı Yaprak Sarma",
+     "desc": "Limonlu, bol zeytinyağlı, incecik sarılmış asma yaprağı.",
+     "price": 800,
+     "unit": "kg",
+     "size": "",
+     "note": "",
+     "kcal": 165,
+     "kcalNote": "100 g",
+     "priceFrom": false,
+     "allergens": [
+      "sulphite"
+     ],
+     "tags": [
+      "Vegan"
+     ],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "tepsi_boregi",
+     "name": "Tepsi Böreği",
+     "desc": "Kat kat yufka, peynirli ve ıspanaklı iç, fırından yeni çıkmış.",
+     "price": 650,
+     "unit": "kg",
+     "size": "",
+     "note": "",
+     "kcal": 290,
+     "kcalNote": "100 g",
+     "priceFrom": false,
+     "allergens": [
+      "gluten",
+      "egg",
+      "milk"
+     ],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "tuzlu_kurabiye",
+     "name": "Tuzlu Kurabiye",
+     "desc": "Çörek otlu ve susamlı, ağızda dağılan çay saati klasiği.",
+     "price": 600,
+     "unit": "kg",
+     "size": "",
+     "note": "",
+     "kcal": 480,
+     "kcalNote": "100 g",
+     "priceFrom": false,
+     "allergens": [
+      "gluten",
+      "egg",
+      "milk",
+      "sesame"
+     ],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "tatli_kurabiye",
+     "name": "Tatlı Kurabiye",
+     "desc": "Tereyağlı, pudra şekerli, fındık ve çikolata parçacıklı.",
+     "price": 700,
+     "unit": "kg",
+     "size": "",
+     "note": "",
+     "kcal": 500,
+     "kcalNote": "100 g",
+     "priceFrom": false,
+     "allergens": [
+      "gluten",
+      "egg",
+      "milk",
+      "nuts"
+     ],
+     "tags": [],
+     "image": "",
+     "available": true
+    }
+   ]
+  },
+  {
+   "id": "tatli",
+   "name": "Tatlı Vitrini",
+   "subtitle": "Gerçek Belçika çikolatasıyla",
+   "icon": "cake",
+   "items": [
+    {
+     "id": "san_sebastian",
+     "name": "San Sebastian",
+     "desc": "Yanık yüzlü, akışkan kalpli Bask usulü cheesecake.",
+     "price": 250,
+     "unit": "",
+     "size": "",
+     "note": "",
+     "kcal": 480,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [
+      "milk",
+      "egg",
+      "gluten"
+     ],
+     "tags": [
+      "Favori"
+     ],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "limonlu_cheesecake",
+     "name": "Limonlu Cheesecake",
+     "desc": "Taze limon kreması ve tereyağlı bisküvi tabanı.",
+     "price": 220,
+     "unit": "",
+     "size": "",
+     "note": "",
+     "kcal": 420,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [
+      "milk",
+      "egg",
+      "gluten"
+     ],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "orman_meyveli_cheesecake",
+     "name": "Orman Meyveli Cheesecake",
+     "desc": "Ev yapımı orman meyvesi sosuyla kremamsı dilim.",
+     "price": 220,
+     "unit": "",
+     "size": "",
+     "note": "",
+     "kcal": 430,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [
+      "milk",
+      "egg",
+      "gluten"
+     ],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "lotus_cheesecake",
+     "name": "Lotus Cheesecake",
+     "desc": "Karamelize Lotus bisküvisi ve kreması.",
+     "price": 250,
+     "unit": "",
+     "size": "",
+     "note": "",
+     "kcal": 510,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [
+      "milk",
+      "egg",
+      "gluten",
+      "soy"
+     ],
+     "tags": [
+      "Favori"
+     ],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "tiramisu",
+     "name": "Tiramisu",
+     "desc": "Espressoya batırılmış kedi dili, mascarpone ve kakao.",
+     "price": 230,
+     "unit": "",
+     "size": "",
+     "note": "",
+     "kcal": 450,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [
+      "milk",
+      "egg",
+      "gluten"
+     ],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "budapeste",
+     "name": "Budapeşte",
+     "desc": "Fındıklı beze rulo, krema ve meyve.",
+     "price": 230,
+     "unit": "",
+     "size": "",
+     "note": "",
+     "kcal": 470,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [
+      "egg",
+      "milk",
+      "nuts"
+     ],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "magnolya",
+     "name": "Magnolya",
+     "desc": "Muzlu ve çilekli, bisküvi katlı hafif puding.",
+     "price": 180,
+     "unit": "",
+     "size": "",
+     "note": "",
+     "kcal": 380,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [
+      "milk",
+      "egg",
+      "gluten"
+     ],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "ekler",
+     "name": "Ekler",
+     "desc": "Çıtır hamur, vanilyalı krema, Belçika çikolatası.",
+     "price": 50,
+     "unit": "adet",
+     "size": "",
+     "note": "",
+     "kcal": 190,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [
+      "gluten",
+      "egg",
+      "milk",
+      "soy"
+     ],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "islak_kek",
+     "name": "Islak Kek",
+     "desc": "Sıcak çikolata sosuna bulanmış yumuşacık kek.",
+     "price": 160,
+     "unit": "",
+     "size": "",
+     "note": "",
+     "kcal": 390,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [
+      "gluten",
+      "egg",
+      "milk",
+      "soy"
+     ],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "mozaik_pasta",
+     "name": "Mozaik Pasta",
+     "desc": "Bisküvi ve kakaonun çocukluk tadındaki buluşması.",
+     "price": 180,
+     "unit": "",
+     "size": "",
+     "note": "",
+     "kcal": 420,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [
+      "gluten",
+      "milk",
+      "soy"
+     ],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "alman_pastasi",
+     "name": "Alman Pastası",
+     "desc": "Kreması bol, meyveli, katlı ev pastası.",
+     "price": 230,
+     "unit": "",
+     "size": "",
+     "note": "",
+     "kcal": 440,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [
+      "gluten",
+      "egg",
+      "milk"
+     ],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "brownie",
+     "name": "Brownie",
+     "desc": "Yoğun Belçika çikolatalı, içi nemli brownie.",
+     "price": 200,
+     "unit": "",
+     "size": "",
+     "note": "",
+     "kcal": 430,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [
+      "gluten",
+      "egg",
+      "milk",
+      "soy",
+      "nuts"
+     ],
+     "tags": [
+      "Belçika Çikolatası"
+     ],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "dev_cookie",
+     "name": "Dev Cookie",
+     "desc": "Avuç büyüklüğünde, damla çikolatalı, kenarı çıtır.",
+     "price": 220,
+     "unit": "",
+     "size": "",
+     "note": "",
+     "kcal": 480,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [
+      "gluten",
+      "egg",
+      "milk",
+      "soy"
+     ],
+     "tags": [],
+     "image": "",
+     "available": true
+    }
+   ]
+  },
+  {
+   "id": "kahve",
+   "name": "Kahveler",
+   "subtitle": "Sıcak ya da buzlu, özenle demlenir",
+   "icon": "cup",
+   "items": [
+    {
+     "id": "cay",
+     "name": "Çay",
+     "desc": "İnce belli bardakta demli Türk çayı.",
+     "price": 30,
+     "unit": "",
+     "size": "",
+     "note": "",
+     "kcal": 2,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "turk_kahvesi",
+     "name": "Türk Kahvesi",
+     "desc": "Közde pişmiş gibi köpüklü. Yanında mini ıslak kek ve su.",
+     "price": 120,
+     "unit": "",
+     "size": "",
+     "note": "",
+     "kcal": 160,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [
+      "gluten",
+      "egg",
+      "milk",
+      "soy"
+     ],
+     "tags": [
+      "İkramlı"
+     ],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "espresso",
+     "name": "Espresso",
+     "desc": "Tek shot, yoğun ve kadifemsi.",
+     "price": 90,
+     "unit": "",
+     "size": "Tek",
+     "note": "",
+     "kcal": 5,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "double_espresso",
+     "name": "Double Espresso",
+     "desc": "Çift shot, iki kat enerji.",
+     "price": 120,
+     "unit": "",
+     "size": "Double",
+     "note": "",
+     "kcal": 10,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "americano",
+     "name": "Americano",
+     "desc": "Espresso ve sıcak su.",
+     "price": 120,
+     "unit": "",
+     "size": "10 oz / 300 ml",
+     "note": "",
+     "kcal": 10,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "iced_americano",
+     "name": "Iced Americano",
+     "desc": "Buz üstüne espresso.",
+     "price": 140,
+     "unit": "",
+     "size": "14 oz / 420 ml",
+     "note": "",
+     "kcal": 10,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "filtre_kahve",
+     "name": "Filtre Kahve",
+     "desc": "Günün çekirdeğiyle taze demleme.",
+     "price": 130,
+     "unit": "",
+     "size": "10 oz / 300 ml",
+     "note": "",
+     "kcal": 5,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "cappuccino",
+     "name": "Cappuccino",
+     "desc": "Eşit oranda espresso, süt ve kadife köpük.",
+     "price": 160,
+     "unit": "",
+     "size": "10 oz / 300 ml",
+     "note": "",
+     "kcal": 130,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [
+      "milk"
+     ],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "latte",
+     "name": "Latte",
+     "desc": "Bol sütlü, yumuşak içimli.",
+     "price": 160,
+     "unit": "",
+     "size": "10 oz / 300 ml",
+     "note": "",
+     "kcal": 190,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [
+      "milk"
+     ],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "iced_latte",
+     "name": "Iced Latte",
+     "desc": "Soğuk süt, buz ve espresso.",
+     "price": 180,
+     "unit": "",
+     "size": "14 oz / 420 ml",
+     "note": "",
+     "kcal": 150,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [
+      "milk"
+     ],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "flat_white",
+     "name": "Flat White",
+     "desc": "Çift ristretto, ince mikro köpük.",
+     "price": 170,
+     "unit": "",
+     "size": "240 ml",
+     "note": "",
+     "kcal": 120,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [
+      "milk"
+     ],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "cortado",
+     "name": "Cortado",
+     "desc": "Espresso ve az miktar ılık süt.",
+     "price": 150,
+     "unit": "",
+     "size": "180 ml",
+     "note": "",
+     "kcal": 70,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [
+      "milk"
+     ],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "caramel_latte",
+     "name": "Caramel Latte",
+     "desc": "Karamel şuruplu latte.",
+     "price": 190,
+     "unit": "",
+     "size": "10 oz / 300 ml",
+     "note": "",
+     "kcal": 280,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [
+      "milk"
+     ],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "iced_caramel_latte",
+     "name": "Iced Caramel Latte",
+     "desc": "Buzlu, karamelli, ferah.",
+     "price": 210,
+     "unit": "",
+     "size": "14 oz / 420 ml",
+     "note": "",
+     "kcal": 250,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [
+      "milk"
+     ],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "mocha",
+     "name": "Mocha",
+     "desc": "Espresso, Belçika çikolatası ve süt.",
+     "price": 190,
+     "unit": "",
+     "size": "10 oz / 300 ml",
+     "note": "",
+     "kcal": 300,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [
+      "milk",
+      "soy"
+     ],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "iced_mocha",
+     "name": "Iced Mocha",
+     "desc": "Buzlu çikolatalı kahve.",
+     "price": 210,
+     "unit": "",
+     "size": "14 oz / 420 ml",
+     "note": "",
+     "kcal": 270,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [
+      "milk",
+      "soy"
+     ],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "white_chocolate_mocha",
+     "name": "White Chocolate Mocha",
+     "desc": "Beyaz çikolata ve espresso.",
+     "price": 200,
+     "unit": "",
+     "size": "10 oz / 300 ml",
+     "note": "",
+     "kcal": 340,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [
+      "milk",
+      "soy"
+     ],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "iced_white_chocolate_mocha",
+     "name": "Iced White Chocolate Mocha",
+     "desc": "Buzlu beyaz çikolatalı mocha.",
+     "price": 220,
+     "unit": "",
+     "size": "14 oz / 420 ml",
+     "note": "",
+     "kcal": 310,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [
+      "milk",
+      "soy"
+     ],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "iced_caramel_macchiato",
+     "name": "Iced Caramel Macchiato",
+     "desc": "Vanilyalı süt, espresso ve karamel sos.",
+     "price": 220,
+     "unit": "",
+     "size": "14 oz / 420 ml",
+     "note": "",
+     "kcal": 260,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [
+      "milk"
+     ],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "affogato",
+     "name": "Affogato",
+     "desc": "Vanilyalı dondurmanın üstüne sıcak espresso.",
+     "price": 190,
+     "unit": "",
+     "size": "Özel servis",
+     "note": "",
+     "kcal": 210,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [
+      "milk",
+      "egg"
+     ],
+     "tags": [
+      "Favori"
+     ],
+     "image": "",
+     "available": true
+    }
+   ]
+  },
+  {
+   "id": "icecek",
+   "name": "Diğer İçecekler",
+   "subtitle": "Ev yapımı, doğal ve serinletici",
+   "icon": "glass",
+   "items": [
+    {
+     "id": "ev_yapimi_limonata",
+     "name": "Ev Yapımı Limonata",
+     "desc": "Taze limon, doğal şeker ve ferahlatıcı lezzet.",
+     "price": 130,
+     "unit": "",
+     "size": "14 oz / 420 ml",
+     "note": "",
+     "kcal": 140,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "ice_hibiscus",
+     "name": "Ice Hibiscus",
+     "desc": "Hibiskus çiçeği, limon ve doğal tatlar.",
+     "price": 170,
+     "unit": "",
+     "size": "14 oz / 420 ml",
+     "note": "",
+     "kcal": 110,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "kuzu_kulagi",
+     "name": "Kuzu Kulağı",
+     "desc": "Geleneksel lezzet, serinletici içecek.",
+     "price": 180,
+     "unit": "",
+     "size": "14 oz / 420 ml",
+     "note": "",
+     "kcal": 120,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "ice_detox",
+     "name": "Ice Detox",
+     "desc": "Yeşil elma, salatalık, zencefil, limon ve nane.",
+     "price": 180,
+     "unit": "",
+     "size": "14 oz / 420 ml",
+     "note": "",
+     "kcal": 90,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [],
+     "tags": [
+      "Hafif"
+     ],
+     "image": "",
+     "available": true
+    }
+   ]
+  },
+  {
+   "id": "frozen",
+   "name": "Frozen",
+   "subtitle": "Buz gibi meyve keyfi",
+   "icon": "snow",
+   "items": [
+    {
+     "id": "limonlu_frozen",
+     "name": "Limonlu Frozen",
+     "desc": "Ekşi tatlı, buz kıvamında limon.",
+     "price": 180,
+     "unit": "",
+     "size": "14 oz / 420 ml",
+     "note": "",
+     "kcal": 190,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "cilekli_frozen",
+     "name": "Çilekli Frozen",
+     "desc": "Taze çilekle buzlu ferahlık.",
+     "price": 200,
+     "unit": "",
+     "size": "14 oz / 420 ml",
+     "note": "",
+     "kcal": 210,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "orman_meyveli_frozen",
+     "name": "Orman Meyveli Frozen",
+     "desc": "Böğürtlen, ahududu ve yaban mersini.",
+     "price": 200,
+     "unit": "",
+     "size": "14 oz / 420 ml",
+     "note": "",
+     "kcal": 220,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [],
+     "tags": [],
+     "image": "",
+     "available": true
+    }
+   ]
+  },
+  {
+   "id": "milkshake",
+   "name": "Milkshake",
+   "subtitle": "Kremamsı, köpüklü, bol dondurmalı",
+   "icon": "shake",
+   "items": [
+    {
+     "id": "cikolatali_milkshake",
+     "name": "Çikolatalı Milkshake",
+     "desc": "Süt, çikolatalı dondurma ve kakao.",
+     "price": 210,
+     "unit": "",
+     "size": "14 oz / 420 ml",
+     "note": "",
+     "kcal": 520,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [
+      "milk",
+      "soy"
+     ],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "vanilyali_milkshake",
+     "name": "Vanilyalı Milkshake",
+     "desc": "Süt, vanilyalı dondurma ve vanilya şurubu.",
+     "price": 210,
+     "unit": "",
+     "size": "14 oz / 420 ml",
+     "note": "",
+     "kcal": 480,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [
+      "milk"
+     ],
+     "tags": [],
+     "image": "",
+     "available": true
+    },
+    {
+     "id": "cilekli_milkshake",
+     "name": "Çilekli Milkshake",
+     "desc": "Süt, çilekli dondurma ve taze çilek.",
+     "price": 220,
+     "unit": "",
+     "size": "14 oz / 420 ml",
+     "note": "",
+     "kcal": 470,
+     "kcalNote": "",
+     "priceFrom": false,
+     "allergens": [
+      "milk"
+     ],
+     "tags": [],
+     "image": "",
+     "available": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mom's Hands Cafe &amp; Pasta | Dijital Menü</title>
+<meta name="description" content="Mom's Hands Cafe &amp; Pasta dijital menüsü. El emeği, gerçek lezzet, sevgiyle.">
+<meta name="theme-color" content="#211D25">
+<meta property="og:title" content="Mom's Hands Cafe &amp; Pasta">
+<meta property="og:description" content="El emeği, gerçek lezzet, sevgiyle...">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="hero" id="top">
+  <div class="hero-bg" id="heroBg"></div>
+  <svg class="leaf leaf-l" viewBox="0 0 120 160" aria-hidden="true"><use href="#sprig"/></svg>
+  <svg class="leaf leaf-r" viewBox="0 0 120 160" aria-hidden="true"><use href="#sprig"/></svg>
+
+  <div class="hero-inner">
+    <img id="logoImg" class="logo-img" alt="" hidden>
+    <div class="wordmark">
+      <svg class="heart-draw" viewBox="0 0 60 54" aria-hidden="true"><path d="M30 50C18 40 4 31 4 17 4 9 10 4 17 4c6 0 10 4 13 9 3-5 7-9 13-9 7 0 13 5 13 13 0 14-14 23-26 33z"/></svg>
+      <h1 id="brandName">Mom's Hands</h1>
+      <p class="brand-sub"><span class="rule"></span><span id="brandSub">Cafe &amp; Pasta</span><span class="rule"></span></p>
+    </div>
+    <p class="tagline" id="tagline">El emeği, gerçek lezzet, sevgiyle...</p>
+
+    <div class="stamp" aria-hidden="true">
+      <svg viewBox="0 0 120 120">
+        <defs><path id="circ" d="M60 60m-44 0a44 44 0 1 1 88 0a44 44 0 1 1 -88 0"/></defs>
+        <text><textPath href="#circ" startOffset="0" textLength="272" lengthAdjust="spacingAndGlyphs">GÜNLÜK ÜRETİM ✦ TAZE MALZEME ✦ ÖZENLİ HAZIRLIK ✦</textPath></text>
+      </svg>
+      <span class="stamp-core">
+        <svg viewBox="0 0 24 24"><path d="M12 21C7 17 2 13.6 2 8.6 2 5.5 4.4 3.5 7 3.5c2.2 0 3.8 1.3 5 3 1.2-1.7 2.8-3 5-3 2.6 0 5 2 5 5.1 0 5-5 8.4-10 12.4z"/></svg>
+      </span>
+    </div>
+
+    <p class="notice" id="notice" hidden></p>
+    <a href="#menu" class="scroll-cue" aria-label="Menüye geç"><span>Menüyü keşfet</span><svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></a>
+  </div>
+  <svg class="hero-edge" viewBox="0 0 400 40" preserveAspectRatio="none" aria-hidden="true"><path d="M0 40V22c30 10 55 12 85 4s60-20 100-14 60 18 100 16 60-18 115-12v24z"/></svg>
+</header>
+
+<nav class="bar" id="bar" aria-label="Kategoriler">
+  <div class="bar-row">
+    <a href="#top" class="mini-brand" aria-label="Başa dön">
+      <svg viewBox="0 0 24 24"><path d="M12 21C7 17 2 13.6 2 8.6 2 5.5 4.4 3.5 7 3.5c2.2 0 3.8 1.3 5 3 1.2-1.7 2.8-3 5-3 2.6 0 5 2 5 5.1 0 5-5 8.4-10 12.4z"/></svg>
+      <span>Mom's Hands</span>
+    </a>
+    <div class="bar-actions">
+      <button class="icon-btn" id="searchBtn" aria-label="Ara"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.2-4.2"/></svg></button>
+      <button class="icon-btn" id="filterBtn" aria-label="Alerjen filtresi"><svg viewBox="0 0 24 24"><path d="M4 5h16l-6 7.5V19l-4 1.5v-8z"/></svg><i class="dot" id="filterDot" hidden></i></button>
+    </div>
+  </div>
+  <div class="search-row" id="searchRow" hidden>
+    <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.2-4.2"/></svg>
+    <input id="searchInput" type="search" placeholder="Lezzet ara: latte, cheesecake, mantı..." autocomplete="off">
+    <button id="searchClose" class="txt-btn">Kapat</button>
+  </div>
+  <div class="chips" id="chips"></div>
+</nav>
+
+<div class="marquee" aria-hidden="true"><div class="marquee-track" id="marquee"></div></div>
+
+<main id="menu" class="menu"></main>
+
+<section class="picker-cta">
+  <div class="picker-card">
+    <p class="script">Kararsız mı kaldınız?</p>
+    <h2>Annemin Önerisi</h2>
+    <p>Bir dokunuşla bugünün tadını biz seçelim.</p>
+    <button class="btn-rose" id="pickBtn"><svg viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="4"/><circle cx="8.5" cy="8.5" r="1.3"/><circle cx="15.5" cy="15.5" r="1.3"/><circle cx="12" cy="12" r="1.3"/></svg>Benim için seç</button>
+  </div>
+</section>
+
+<section class="choco">
+  <div class="choco-inner">
+    <svg class="cocoa" viewBox="0 0 64 64" aria-hidden="true"><path d="M32 6c10 6 16 16 16 26S42 52 32 58C22 52 16 42 16 32S22 12 32 6z"/><path d="M32 8v48M24 18c4 3 12 3 16 0M21 28c6 3 16 3 22 0M21 38c6 3 16 3 22 0M24 48c4 3 12 3 16 0"/></svg>
+    <div>
+      <p class="choco-title">Tatlılarımızda <em>gerçek Belçika çikolatası</em> kullanıyoruz.</p>
+      <p class="choco-sub">Günlük üretim <span>♡</span> Taze malzeme <span>♡</span> Özenli hazırlık</p>
+    </div>
+  </div>
+</section>
+
+<section class="allergen-guide" id="allergenGuide">
+  <p class="script light">Sağlığınız bizim için önemli</p>
+  <h2>Alerjen Rehberi</h2>
+  <p class="guide-note">Her ürünün yanında içerdiği alerjenleri bu simgelerle gösteriyoruz. Bir alerjiniz varsa lütfen sipariş öncesinde bize bildirin.</p>
+  <div class="al-grid" id="alGrid"></div>
+</section>
+
+<section class="info" id="info">
+  <h2>Bizi Ziyaret Edin</h2>
+  <div class="info-grid">
+    <a class="info-card" id="addrCard" target="_blank" rel="noopener">
+      <span class="ic"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span>
+      <span><small>Adres</small><b id="addr"></b><em>Yol tarifi al</em></span>
+    </a>
+    <a class="info-card" id="igCard" target="_blank" rel="noopener">
+      <span class="ic"><svg viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".9" fill="currentColor"/></svg></span>
+      <span><small>Instagram</small><b id="ig"></b><em>Bizi takip edin</em></span>
+    </a>
+    <a class="info-card" id="telCard">
+      <span class="ic"><svg viewBox="0 0 24 24"><path d="M6.6 3.5h2.6l1.4 4.2-2 1.4a12 12 0 0 0 6.3 6.3l1.4-2 4.2 1.4v2.6a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2z"/></svg></span>
+      <span><small>Telefon</small><b id="tel"></b><em>Hemen arayın</em></span>
+    </a>
+    <div class="info-card">
+      <span class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg></span>
+      <span><small>Çalışma Saatleri</small><b id="hours"></b></span>
+    </div>
+    <div class="info-card" id="wifiCard">
+      <span class="ic"><svg viewBox="0 0 24 24"><path d="M2.5 9a14 14 0 0 1 19 0M5.5 12.4a9.5 9.5 0 0 1 13 0M8.6 15.7a5 5 0 0 1 6.8 0"/><circle cx="12" cy="19" r="1.2" fill="currentColor"/></svg></span>
+      <span><small>WiFi</small><b id="wifi"></b><em>Şifreyi kasadan isteyebilirsiniz</em></span>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">
+  <p class="foot-script">Mom's Hands</p>
+  <p class="foot-sub">Cafe &amp; Pasta</p>
+  <p class="foot-tag" id="footTag">El emeği, gerçek lezzet, sevgiyle...</p>
+  <p class="foot-legal">Fiyatlarımıza KDV dahildir. Kalori değerleri yaklaşık değerlerdir.</p>
+  <p class="foot-legal">© <span id="yr"></span> Mom's Hands Cafe &amp; Pasta</p>
+</footer>
+
+<!-- bottom sheet -->
+<div class="sheet-wrap" id="sheetWrap" hidden>
+  <div class="sheet-backdrop" data-close></div>
+  <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle">
+    <span class="grab" data-close></span>
+    <div id="sheetBody"></div>
+  </div>
+</div>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="sprig" viewBox="0 0 120 160">
+    <path d="M20 158C40 120 60 80 100 6" fill="none" stroke="currentColor" stroke-width="2"/>
+    <g fill="currentColor">
+      <path d="M36 128c-14-2-24-12-26-24 14 0 24 10 26 24z"/><path d="M40 120c4-14 16-22 28-22-2 14-14 22-28 22z"/>
+      <path d="M52 96c-14-4-22-14-22-26 14 2 22 12 22 26z"/><path d="M57 88c6-14 18-20 30-18-4 14-16 20-30 18z"/>
+      <path d="M70 64c-12-6-18-16-16-28 12 4 18 14 16 28z"/><path d="M75 56c8-12 20-16 32-12-6 12-18 16-32 12z"/>
+      <path d="M88 32c-10-6-14-16-11-26 10 5 14 15 11 26z"/>
+    </g>
+  </symbol>
+</svg>
+
+<script type="module" src="/assets/app.js"></script>
+</body>
+</html>
