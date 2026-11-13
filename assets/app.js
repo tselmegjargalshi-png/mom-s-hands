@@ -50,15 +50,16 @@ function applySettings(s) {
   if (s.notice) { $('#notice').textContent = s.notice; $('#notice').hidden = false; }
   if (s.logoImage) { $('#logoImg').src = s.logoImage; $('#logoImg').hidden = false; }
   if (s.coverImage) { const b = $('#heroBg'); b.style.backgroundImage = `url("${s.coverImage}")`; b.classList.add('on'); }
-  $('#addr').textContent = s.address || '';
-  $('#addrCard').href = s.mapsUrl || `https://maps.google.com/?q=${encodeURIComponent(s.address || '')}`;
-  const ig = (s.instagram || '').replace(/^@/, '');
-  $('#ig').textContent = '@' + ig;
-  $('#igCard').href = `https://instagram.com/${ig}`;
-  $('#tel').textContent = s.phone || '';
-  $('#telCard').href = 'tel:' + (s.phone || '').replace(/\s+/g, '');
-  $('#hours').textContent = s.hours || '';
-  if (s.wifi) $('#wifi').textContent = s.wifi; else $('#wifiCard').hidden = true;
+  const show = (id, on) => { $(id).hidden = !on; return on; };
+  const ig = (s.instagram || '').trim().replace(/^@/, '');
+  const any = [
+    show('#addrCard', !!s.address) && (($('#addr').textContent = s.address), ($('#addrCard').href = s.mapsUrl || `https://maps.google.com/?q=${encodeURIComponent(s.address)}`)),
+    show('#igCard', !!ig) && (($('#ig').textContent = '@' + ig), ($('#igCard').href = `https://instagram.com/${ig}`)),
+    show('#telCard', !!s.phone) && (($('#tel').textContent = s.phone), ($('#telCard').href = 'tel:' + s.phone.replace(/\s+/g, ''))),
+    show('#hoursCard', !!s.hours) && ($('#hours').textContent = s.hours),
+    show('#wifiCard', !!s.wifi) && ($('#wifi').textContent = s.wifi),
+  ].some(Boolean);
+  $('#info').hidden = !any;
   $('#yr').textContent = new Date().getFullYear();
   const slogans = [...(s.slogans || []), s.tagline].filter(Boolean);
   const run = slogans.map((t) => `<span>${esc(t)}</span>`).join('');

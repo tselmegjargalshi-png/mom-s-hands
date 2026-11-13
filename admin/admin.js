@@ -166,11 +166,12 @@ function renderSettings() {
     <div class="grid2">${field(s + '.name', 'İşletme adı')}${field(s + '.sub', 'Alt yazı')}</div>
     ${field(s + '.tagline', 'Slogan')}
     <label class="fld"><span>Kayan yazılar (her satıra bir tane)</span><textarea data-bind="settings.slogans" data-type="lines" rows="5">${esc((M.settings.slogans || []).join('\n'))}</textarea></label>
-    ${field(s + '.notice', 'Üstteki duyuru')}
-    ${field(s + '.address', 'Adres')}
-    ${field(s + '.mapsUrl', 'Harita bağlantısı', 'url')}
-    <div class="grid2">${field(s + '.instagram', 'Instagram kullanıcı adı')}${field(s + '.phone', 'Telefon', 'tel')}</div>
-    <div class="grid2">${field(s + '.hours', 'Çalışma saatleri')}${field(s + '.wifi', 'WiFi adı')}</div>
+    ${field(s + '.notice', 'Üstteki duyuru', 'text', 'placeholder="Boş bırakılırsa gösterilmez"')}
+    ${field(s + '.address', 'Adres', 'text', 'placeholder="Mahalle, cadde, no, ilçe, şehir"')}
+    ${field(s + '.mapsUrl', 'Harita bağlantısı', 'url', 'placeholder="Google Haritalar bağlantısı (isteğe bağlı)"')}
+    <div class="grid2">${field(s + '.instagram', 'Instagram kullanıcı adı', 'text', 'placeholder="kullaniciadi"')}${field(s + '.phone', 'Telefon', 'tel', 'placeholder="+90 5xx xxx xx xx"')}</div>
+    <div class="grid2">${field(s + '.hours', 'Çalışma saatleri', 'text', 'placeholder="Her gün 08:00 ile 23:00 arası"')}${field(s + '.wifi', 'WiFi adı', 'text', 'placeholder="Ağ adı"')}</div>
+    <p class="muted">Boş bırakılan iletişim bilgileri menüde gösterilmez.</p>
     <label class="switch"><input type="checkbox" data-bind="settings.showPhotos" data-type="bool" ${M.settings.showPhotos ? 'checked' : ''}>Ürün görsellerini menüde göster</label>`;
 }
 
