@@ -61,9 +61,6 @@ function applySettings(s) {
   ].some(Boolean);
   $('#info').hidden = !any;
   $('#yr').textContent = new Date().getFullYear();
-  const slogans = [...(s.slogans || []), s.tagline].filter(Boolean);
-  const run = slogans.map((t) => `<span>${esc(t)}</span>`).join('');
-  $('#marquee').innerHTML = run + run;
 }
 
 function itemHTML(it, cat, i) {

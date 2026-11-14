@@ -7,8 +7,7 @@
    "Tatlılarımızda gerçek Belçika çikolatası kullanıyoruz.",
    "Günlük üretim",
    "Taze malzeme",
-   "Özenli hazırlık",
-   "Annemin elinden, sizin sofranıza."
+   "Özenli hazırlık"
   ],
   "address": "",
   "mapsUrl": "",
@@ -84,9 +83,7 @@
       "egg",
       "milk"
      ],
-     "tags": [
-      "Annemin Tarifi"
-     ],
+     "tags": [],
      "image": "",
      "available": true
     },
