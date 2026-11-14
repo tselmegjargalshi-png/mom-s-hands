@@ -61,6 +61,11 @@ function applySettings(s) {
   ].some(Boolean);
   $('#info').hidden = !any;
   $('#yr').textContent = new Date().getFullYear();
+  const slogans = (s.slogans || []).filter(Boolean);
+  $('#marquee').closest('.marquee').hidden = !slogans.length;
+  let run = slogans.map((t) => `<span>${esc(t)}</span>`).join('');
+  if (run) { while ((run.match(/<span>/g) || []).length < 8) run += run; }
+  $('#marquee').innerHTML = run + run;
 }
 
 function itemHTML(it, cat, i) {

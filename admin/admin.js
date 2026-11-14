@@ -165,6 +165,7 @@ function renderSettings() {
     ${imgField('settings.coverImage', 'Kapak görseli', 'Menünün en üstünde, mor tonların altında hafifçe görünür.')}
     <div class="grid2">${field(s + '.name', 'İşletme adı')}${field(s + '.sub', 'Alt yazı')}</div>
     ${field(s + '.tagline', 'Slogan')}
+    <label class="fld"><span>Kayan yazılar (her satıra bir tane)</span><textarea data-bind="settings.slogans" data-type="lines" rows="5">${esc((M.settings.slogans || []).join('\n'))}</textarea></label>
     ${field(s + '.notice', 'Üstteki duyuru', 'text', 'placeholder="Boş bırakılırsa gösterilmez"')}
     ${field(s + '.address', 'Adres', 'text', 'placeholder="Mahalle, cadde, no, ilçe, şehir"')}
     ${field(s + '.mapsUrl', 'Harita bağlantısı', 'url', 'placeholder="Google Haritalar bağlantısı (isteğe bağlı)"')}

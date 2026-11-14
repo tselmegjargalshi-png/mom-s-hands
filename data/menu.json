@@ -4,10 +4,7 @@
   "sub": "Cafe & Pasta",
   "tagline": "El emeği, gerçek lezzet, sevgiyle...",
   "slogans": [
-   "Tatlılarımızda gerçek Belçika çikolatası kullanıyoruz.",
-   "Günlük üretim",
-   "Taze malzeme",
-   "Özenli hazırlık"
+   "Anne Elinden"
   ],
   "address": "",
   "mapsUrl": "",
@@ -83,7 +80,9 @@
       "egg",
       "milk"
      ],
-     "tags": [],
+     "tags": [
+      "Anne Tarifi"
+     ],
      "image": "",
      "available": true
     },
